@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'chapter_6 Scroll Demo',
+      title: 'chapter_6 ListView Scroll Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('chapter_6 Scroll Demo'),
+        title: const Text('chapter_6 ListView Scroll Demo'),
       ),
       body: ListView.builder(
         controller: _scrollController,
